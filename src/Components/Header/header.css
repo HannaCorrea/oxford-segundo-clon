@@ -1,0 +1,54 @@
+.header-container {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+}
+
+.header-top {
+  color: #fff;
+  padding: 8px 5px;
+  background-color: #202743;
+  font-size: 13px;
+}
+
+.header-top i {
+  margin: 0 8px;
+}
+
+.header-bottom {
+  display: flex;
+  padding: 5px;
+  background-color: #000;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.header-logo img {
+  display: block;
+  width: 60px;
+}
+
+.header-shop {
+  color: #fff;
+  background-color: #000;
+  border: 0;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.header-shop--move {
+  margin-left: auto;
+}
+
+.header-shop i {
+  font-size: 20px;
+  margin: 3px 0;
+}
+
+.header-shop p {
+  font-size: 12px;
+}

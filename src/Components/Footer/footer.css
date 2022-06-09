@@ -1,0 +1,73 @@
+.footer-principal-container {
+  position: sticky;
+  z-index: 5;
+}
+
+.footer-top-container {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #efefef;
+  padding: 30px;
+}
+
+.footer-top-section {
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 11px;
+  width: 30%;
+}
+
+.footer-top-section i {
+  font-size: 48px;
+}
+
+.footer-mid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 42px;
+  color: #fff;
+  background-color: #000;
+}
+
+.footer-mid-container p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-mid-container form {
+  margin: 10px 0;
+  width: 500px;
+}
+
+.footer-mid-container input {
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+  background-color: rgb(59, 59, 59);
+  border: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.footer-mid-container button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+
+.footer-mid-container span {
+  font-size: 14px;
+  text-align: center;
+}

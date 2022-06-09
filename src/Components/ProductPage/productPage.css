@@ -1,0 +1,178 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image-container {
+  align-items: center;
+}
+
+.product-image-container img {
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product-description-container {
+  position: relative;
+  margin: 15px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 10px 0 0 ;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.product-price {
+  font-size: 22px;
+  color: #a31010;
+  margin: 8px 0;
+}
+
+.product-description-container i {
+  position: absolute;
+  left: 90%;
+  right: 8%;
+  top: 10%;
+  color: rgba(128, 128, 128, 0.472);
+  font-size: 28px;
+}
+
+.product-description-container i:hover {
+  color: grey;
+}
+
+.product-sale-container {
+  display: flex;
+  margin: 10px 15px;
+}
+
+.product-sale-amount button {
+  font-size: 24px;
+  height: auto;
+  width: 33px;
+  border: 1px solid rgba(214, 214, 214, 0.511);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.573);
+  font-weight: bold;
+  background-color: rgba(214, 214, 214, 0.511);
+}
+
+
+.product-sale-amount button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.product-sale-amount input {
+  text-align: center;
+  width: 48px;
+  color: rgb(72, 72, 72);
+  font-size: 24px;
+  border: 1px solid rgba(214, 214, 214, 0.511);
+}
+
+.product-sale-add {
+  width: calc(100% - 120px);
+  color: #fff;
+  background-color: #000;
+  font-size: 16px;
+  text-align: center;
+  border: transparent;
+  margin: 0 auto;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+@media(max-width:390px){
+  .product-sale-add{
+    width: 200px;
+    padding: 0;
+  }
+}
+.product-sale-add:hover {
+  color: #000;
+  background-color: #fec148;
+}
+
+.change-title{
+  font-size: 16px;
+  margin: 20px 0 5px 10px;
+}
+
+.change-icon-container{
+  margin: 10px;
+}
+
+.change-icon-container i {
+  margin: 8px;
+  font-size: 30px;
+  color: #000;
+  background-color: #fff;
+
+}
+
+.change-icon-container i:hover{
+  color: #fec148;
+}
+
+.feactures-product-container{
+  margin: 15px ;
+}
+
+.feactures-button{
+  display: flex;
+  justify-content: space-between;
+  border: transparent;
+  background-color: transparent;
+  color: #646569;
+  padding: 0 20px;
+  font-weight: bolder;
+  font-size: 16px;
+  border-bottom: 1px solid #efefef;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.feactures-title{
+  margin-right:auto ;
+  font-size: 16px;
+}
+
+.feactures {
+  margin: 10px 30px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.feactures---active{
+  height:300px;
+}
+
+.fact-container{
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  flex-direction: row;
+  border-bottom: 1px solid  #efefef;
+}
+
+.fact , .fill-fact{
+  font-size: 16px;
+}
+
+.fact{
+  margin-right: auto;
+
+}
+
+.fill-fact{
+  font-weight: normal;
+  text-align: center;
+}

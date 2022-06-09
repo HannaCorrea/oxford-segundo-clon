@@ -1,0 +1,49 @@
+.search-button {
+  color: #fff;
+  background-color: #000;
+  border: 0;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.search-button--noShow {
+  display: none;
+}
+
+.search-button i {
+  font-size: 20px;
+  margin: 3px 0;
+}
+
+.search-button p {
+  font-size: 12px;
+}
+
+.searchBar-container {
+  position: fixed;
+  top: 130px;
+  display: none;
+  left: 35px;
+  width: 340px;
+  transition: 0.3s all;
+  box-shadow: rgba(0, 0, 0, 0.323) 0px 3px 8px;
+}
+
+.searchBar-container--show {
+  display: flex;
+}
+
+.searchBar-container input {
+  width: 340px;
+  padding: 5px;
+  border-right: none;
+}
+
+.searchBar-container button {
+  font-size: 20px;
+  color: #fff;
+  padding: 6px 10px;
+  background-color: #000;
+  margin: 0;
+  border: #000;
+}
